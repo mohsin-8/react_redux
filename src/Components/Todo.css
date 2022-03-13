@@ -1,0 +1,37 @@
+.plus {
+  right: 38px;
+  height: 36px;
+  width: 40px;
+  position: relative;
+  background-color: rgb(9, 143, 196);
+  color: #f1f1f1;
+  cursor: pointer;
+}
+
+.list {
+  display: block;
+  justify-content: center;
+}
+
+.eachItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: brown;
+  margin: 0px 60px;
+  padding: 5px 0px;
+  border-radius: 20px;
+}
+
+.eachItem > p {
+  color: #f1f1f1;
+  word-break: break-all;
+  margin: 8px;
+}
+
+.eachItem > .trash {
+  font-size: 25px;
+  color: #f1f1f1;
+  margin: 8px;
+  cursor: pointer;
+}
